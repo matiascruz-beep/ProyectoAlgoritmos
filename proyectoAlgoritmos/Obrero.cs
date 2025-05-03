@@ -19,7 +19,7 @@ namespace proyectoAlgoritmos
 		public Obrero(string nom, string ape, double dni, double legajo, double sueldo, string cargo)
 		{
 			this.nombre = nom;
-			this apellido = ape;
+			this.apellido = ape;
 			this.dni = dni;
 			this.legajo = legajo;
 			this.sueldo = sueldo;
