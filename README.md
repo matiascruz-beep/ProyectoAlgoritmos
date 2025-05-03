@@ -16,7 +16,7 @@ Este proyecto es ideal para aprender a trabajar con clases, listas, relaciones e
 ## 🛠️ Tecnologías utilizadas
 
 - Lenguaje: **C#**
-- IDE: **Visual Studio**
+- IDE: **SharpDeveloper**
 - Control de versiones: **Git / GitHub**
 
 ## 🧠 Objetivos del proyecto
