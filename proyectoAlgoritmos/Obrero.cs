@@ -8,12 +8,12 @@ namespace proyectoAlgoritmos
 	public class Obrero
 	{
 		//atributos
-		string nombre;
-		string apellido;
-		double dni;
-		double legajo;
-		double sueldo;
-		string cargo;
+		protected string nombre;
+		protected string apellido;
+		protected double dni;
+		protected double legajo;
+		protected double sueldo;
+		protected string cargo;
 		
 		//constructor
 		public Obrero(string nom, string ape, double dni, double legajo, double sueldo, string cargo)
