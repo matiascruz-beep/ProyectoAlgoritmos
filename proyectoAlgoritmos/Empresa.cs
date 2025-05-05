@@ -59,20 +59,13 @@ namespace proyectoAlgoritmos
 		}
 		
 		//Metodos de lista de obras
-		public void añadir_Obra(Obra ob)
-		{obras.Add(ob);}
+		public void añadir_Obra(Obra ob){obras.Add(ob);}
 		
-		public void eliminar_Obra(Obra ob)
-		{ obras.Remove(ob);
-		}
+		public void eliminar_Obra(Obra ob){ obras.Remove(ob);}
 		
-		public int cantidad_Obras()
-		{ return obras.Count;
-		}
+		public int cantidad_Obras(){ return obras.Count;}
 		
-		public Obra recuperar_Obra(int posicion){
-			return obras[posicion];
-		}
+		public Obra recuperar_Obra(int posicion){return obras[posicion];}
 		
 		public bool existeObra(double cod_int){
 			int contador_coincidencia = 0;
