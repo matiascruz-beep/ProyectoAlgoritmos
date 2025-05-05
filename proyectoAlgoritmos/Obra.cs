@@ -29,11 +29,9 @@ namespace proyectoAlgoritmos
 			this.jefe_Obra = jefe;
 			this.costo = costo;
 			grupo_Obreros = new List<Obrero>();
-			
 		}
 		
 		//metodos
-		
 		public string getNombre(){return this.nombre;}
 		
 		public void setNombre(string nom){this.nombre = nom;}
