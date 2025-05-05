@@ -23,6 +23,9 @@ namespace proyectoAlgoritmos
 			for (int i =0; i<lista.Count; i++){
 				Console.WriteLine("Nombre del obrero agregado: "+lista[i].getNombre());
 			}
+			
+			JefedeObra jefe1 = new JefedeObra("Ignacio","cruz",34343434,5,10000000,"albañil",1300)
+			
 				
 			Console.ReadKey(true);
 		}
