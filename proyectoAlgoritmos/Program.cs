@@ -30,7 +30,7 @@ namespace proyectoAlgoritmos
 			
 			//recorro la lista para imprimir los datos de los obreros
 			for (int i =0; i<lista.Count; i++){
-				Console.WriteLine("Nombre del obrero agregado: "+lista[i].getNombre());
+				Console.WriteLine("Nombre del obrero agregado: " + lista[i].getNombre());
 			}
 			
 			//Agrego el jefe de obra a una obra
