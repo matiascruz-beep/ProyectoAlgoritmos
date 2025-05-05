@@ -14,11 +14,11 @@ namespace proyectoAlgoritmos
 		private double codigo_interno;
 		private string tipo_Obra;
 		private int estado_avance;
-		private string jefe_Obra;
+		private JefedeObra jefe_Obra;
 		private double costo;
 		private List<Obrero> grupo_Obreros;
 		
-		public Obra(string nom, string prop, double dni, double cod_int, string tipo_obra,int est_avance, string jefe, double costo)
+		public Obra(string nom, string prop, double dni, double cod_int, string tipo_obra,int est_avance, JefedeObra jefe, double costo)
 		{
 			this.nombre = nom;
 			this.propietario = prop;
@@ -58,9 +58,9 @@ namespace proyectoAlgoritmos
 		
 		public void setEst_Avance(int estado_av){this.estado_avance = estado_av;}
 		
-		public string getJefe_Obra(){return this.jefe_Obra;}
+		public JefedeObra getJefe_Obra(){return this.jefe_Obra;}
 		
-		public void setJefe_Obra(string jefe){this.jefe_Obra = jefe;}
+		public void setJefe_Obra(JefedeObra jefe){this.jefe_Obra = jefe;}
 		
 		
 		//Metodos del array
