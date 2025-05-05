@@ -10,7 +10,10 @@ namespace proyectoAlgoritmos
 	{
 		//Atributos
 		private List<GrupoObreros> grupos_obreros;
+		
+		//la empresa debe tener una lista con todos sus obreros.
 		private List<Obrero> obreros;
+		
 		private List<Obra> obras;
 		
 		//Constructor
@@ -21,8 +24,7 @@ namespace proyectoAlgoritmos
 			obras = new List<Obra>();	
 		}
 		
-		//Metodos de lista de obreros
-	
+		//Metodos de lista de obreros                                 
 		public void añadir_Obrero(Obrero g)
 		{obreros.Add(g);}
 		
@@ -72,7 +74,7 @@ namespace proyectoAlgoritmos
 			return obras[posicion];
 		}
 		
-		public double existeObra(double cod_int){
+		public bool existeObra(double cod_int){
 			int contador_coincidencia = 0;
 			for(int i = 0 ; i < obras.Count ; i++){
 				if(obras[i].getCodInt() == cod_int){contador_coincidencia++;}

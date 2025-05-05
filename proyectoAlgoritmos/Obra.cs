@@ -64,15 +64,15 @@ namespace proyectoAlgoritmos
 		
 		
 		//Metodos del array
-		public void añadir(Obrero a)
+		public void añadir_Obrero(Obrero a)
 		{ grupo_Obreros.Add(a);
 		}
 		
-		public void eliminar(Obrero a)
+		public void eliminar_Obrero(Obrero a)
 		{ grupo_Obreros.Remove(a);
 		}
 		
-		public int cantidad()
+		public int cantidad_Obreros()
 		{ return grupo_Obreros.Count;
 		}
 		
@@ -80,7 +80,7 @@ namespace proyectoAlgoritmos
 			return grupo_Obreros[posicion];
 		}
 		
-		public bool existeDato(double legajo){
+		public bool existe__Obrero(double legajo){
 			int contador_coincidencia = 0;
 			for(int i = 0 ; i < grupo_Obreros.Count ; i++){
 				if(grupo_Obreros[i].getLegajo() == legajo){contador_coincidencia++;}
@@ -90,7 +90,7 @@ namespace proyectoAlgoritmos
 			}else{return false;}
 		}
 		
-		public List<Obrero> retornarLista(){
+		public List<Obrero> retornarLista__Obreros(){
 			List<Obrero> lista = new List<Obrero>();
 			for(int i=0 ; i < grupo_Obreros.Count ; i++){
 				lista.Add(grupo_Obreros[i]);

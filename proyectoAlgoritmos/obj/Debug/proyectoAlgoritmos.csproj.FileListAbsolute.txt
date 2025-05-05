@@ -1,0 +1,5 @@
+C:\Users\mati1\Documents\Proyectos\proyectoAlgoritmos\proyectoAlgoritmos\obj\Debug\proyectoAlgoritmos.csprojResolveAssemblyReference.cache
+C:\Users\mati1\Documents\Proyectos\proyectoAlgoritmos\proyectoAlgoritmos\bin\Debug\proyectoAlgoritmos.exe
+C:\Users\mati1\Documents\Proyectos\proyectoAlgoritmos\proyectoAlgoritmos\bin\Debug\proyectoAlgoritmos.pdb
+C:\Users\mati1\Documents\Proyectos\proyectoAlgoritmos\proyectoAlgoritmos\obj\Debug\proyectoAlgoritmos.exe
+C:\Users\mati1\Documents\Proyectos\proyectoAlgoritmos\proyectoAlgoritmos\obj\Debug\proyectoAlgoritmos.pdb
